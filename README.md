@@ -1,6 +1,6 @@
 # Tarea 3 - Procesamiento de Datos con Apache Spark - Películas de Disney
 
-Repositorio para la entrega del proyecto de el curso Big Data utilizando Apache Kafka, Apache Spark Streaming y un dataset de películas de Disney `disney_movies.csv`. El objetivo del sistema es procesar un flujo continuo de datos para generar métricas limpias y ordenadas por género cinematográfico.
+Repositorio para la entrega del proyecto de el curso Big Data utilizando Apache Kafka, Apache Spark y un dataset de películas de Disney diney_movies.csv. El objetivo del sistema es procesar un flujo continuo de datos para generar métricas limpias y ordenadas por género cinematográfico.
 
 
 

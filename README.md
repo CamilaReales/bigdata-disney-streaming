@@ -34,6 +34,9 @@ El sistema procesa y genera dinámicamente las siguientes métricas clave para l
    ```bash
    kafka-topics.sh --create --topic disney_topic --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 3. Ejecutar para enviar los datos
+   
  python3 kafka_producer.py
+ 
 4.Ejecutar el Consumidor de Spark para procesar el flujo y visualizar la tabla analítica
+
 spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.x.x spark_streaming_consumer.py
